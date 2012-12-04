@@ -1,0 +1,296 @@
+/*  
+Brium | Branding Digital
+Santiago CL
+Noviembre 2012
+Version: 2.0
+*/
+	
+	
+/*estilos varios*/
+.block1{
+	margin: 30px 0 0 0;
+	position: relative;
+}
+.block2{
+	/*height: 620px;*/
+	padding: 100px 0;
+}
+.block3{
+	padding: 100px 0;
+}
+.block4{
+	padding: 100px 0;
+}
+
+.block5{
+	height: 120px;
+	background: #2a73b6 url('../img/bg_footer.jpg') no-repeat top center;
+	color: #fff !important;
+}
+.block6{
+	background: #333333 url('../img/bg_gray.jpg') repeat;
+}
+.titulobajada{
+	font-size: 19px;
+	font-weight:400;
+	font-style: italic;
+	letter-spacing: 1px; 
+	line-height: 30px;
+	color: #333;
+	
+}
+
+.barrasup{
+	padding: 10px 10px 5px 10px;
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+}
+.slider{
+	width: 100%;
+	text-align: center;
+
+}
+img {
+	max-width: 100%;
+}
+.header{
+	clear: both;
+}
+#footer{
+	position: relative;
+	min-height: 100px;
+}
+.logo_footer{
+	width: 107px;
+	height: 46px;
+	margin: 28px 0 0 0;
+	color: #999;
+	min-width: 290px;
+}
+.frase_footer{
+	color: #474747;
+	font-size: 15px;
+	font-style: italic;
+	padding: 10px 60px 10px 0;
+	margin: 28px 0 0 0;
+	text-align: right;
+}
+.separadorhoriz{
+	clear: both;
+	margin: 30px 0;
+}
+.menusup{
+	text-align: right;
+	color: #96f0c7;
+	min-width: 360px;
+}
+.menusup img{
+	margin: 0 5px 0 0;
+}
+.sociales{
+	text-align: right;
+	color: #f2f2f2;
+	position: relative;
+}
+#animation {
+	position: relative;
+	left: 0;
+	float: left;
+	transition: left 500ms;
+	-moz-transition: left 500ms;
+	-webkit-transition: left 500ms;
+	-ms-transition: left 500ms;
+	-o-transition: left 500ms;
+}
+#animation:hover {
+	left: 10px;
+}
+.botonessociales{
+	width: 56px;
+	height: 35px;
+	position: relative;
+	float: right;
+}
+.imgaes_socios{
+	width: 132px;
+	height: 132px;
+	position: relative;
+	float: right;
+}
+.botonesmenu_somos{
+	width: 99px;
+	height: 69px;
+	margin: 0 15px;
+	position: relative;
+	float: right;
+}
+.botonesmenu_servicios{
+	width: 125px;
+	height: 69px;
+	position: relative;
+	float: right;
+}
+.botonesmenu_contacto{
+	width: 100px;
+	height: 69px;
+	position: relative;
+	float: right;
+}
+::-moz-selection {
+	 background: #96f0c6s;
+	 color: #fff;
+	 text-shadow: none;
+}
+::selection {
+	 background: #96f0c6;
+	 color: #fff;
+	 text-shadow: none;
+}
+#googleMap{
+	width: 100%;
+	height: 480px;
+	background: #f4f4f4;
+}
+.bigicon{
+	display: block;
+	text-align: center;
+	margin: 0 auto 20px auto;
+}
+.socios, .textcenter{
+	text-align: center;
+}
+.linea{
+	margin: 20px 0;
+	border-top: 1px solid #f4f4f4;
+	
+}
+/*rollover gray*/
+span.fadehover {
+	position: relative;
+}
+
+img.a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+
+img.b {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/*fin rollover gray*/
+
+
+/*fin estilos varios*/
+/*colores*/
+.red{
+	background: red;
+}
+.blue{
+	background: #016baf;
+}
+.yellow{
+	background: yellow;
+}
+.green{
+	background: #4bbb5a;
+}
+.gray{
+	background: #f4f4f4;
+}
+.celeste{
+	color: #2d6a82;
+}
+.lila{
+	color: #562a58;
+}
+.verdeclaro{
+	color: #235535;
+}
+.borde{
+	border-bottom: 1px solid #f4f4f4;
+	border-top: 1px solid #f4f4f4;
+}
+.columna1{
+	width: 130px;
+}
+.columna2 .columna3{
+	width: 179px;
+}
+/*cierre colores*/
+/*Titulos*/
+.tituloazul{
+	color: #00aeef;
+}
+.titulocalipso{
+	color: #1cbbb4;
+	line-height: 30px;
+}
+.tituloverde{
+	color: #48b858;
+	line-height: 30px;
+}	
+.somos .span3{
+	width: 140px !important;
+}
+
+/* 
+* Scroll to top link inside footer, 
+* but fixed relative to viewport
+*/
+#footer #scroll-top {
+  position:fixed; 
+  /* On top of everything */
+  z-index:9999; 
+  bottom:0;
+  right:0;
+  margin:0;
+  display:inline-block;
+  padding:20px;
+  color:#fafafa;
+  text-decoration:none;
+  background:#333;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+/* 
+* Up Arrow for the scroll top link 
+*/
+#footer #scroll-top:after {
+  content:"";
+  display:inline-block;
+  vertical-align:middle;
+  margin-left:0.35em;
+  width: 0;
+  height: 0;
+  border-left: 0.3em solid transparent;
+  border-right:  0.3em solid transparent;
+  border-bottom:  0.3em solid #fefefe;
+}
+/* 
+* When the viewport is 55em (15em wider
+* than the 40em max-width for #content) 
+* it gets a static postion to not 
+* overlap the content area 
+*/
+@media screen and (max-width: 55em) {
+  #footer #scroll-top {
+    float:right;
+    position:static;
+    margin:0;
+  }
+}
+
+.carousel.carousel-fade .item {
+  opacity:0;
+}
+
+.carousel.carousel-fade .active.item {
+    opacity:1;
+}
+
