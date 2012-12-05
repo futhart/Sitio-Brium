@@ -164,6 +164,9 @@ img {
 	border-top: 1px solid #f4f4f4;
 	
 }
+.textocentrado{
+	text-align: center;
+}
 /*rollover gray*/
 span.fadehover {
 	position: relative;
