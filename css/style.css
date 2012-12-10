@@ -55,6 +55,11 @@ img {
 }
 .header{
 	clear: both;
+	padding:10px;
+	position: fixed;
+	z-index: 2000;
+	top:0;
+	background: #fff url('../img/linea_colores.jpg') repeat-x top center;
 }
 #footer{
 	position: relative;
@@ -82,7 +87,7 @@ img {
 .menusup{
 	text-align: right;
 	color: #96f0c7;
-	min-width: 360px;
+	padding: 0 30px 0 0;
 }
 .menusup img{
 	margin: 0 5px 0 0;
@@ -249,7 +254,7 @@ img.b {
   position:fixed; 
   /* On top of everything */
   z-index:9999; 
-  bottom:0;
+  top:50%;
   right:0;
   margin:0;
   display:inline-block;
@@ -275,25 +280,3 @@ img.b {
   border-right:  0.3em solid transparent;
   border-bottom:  0.3em solid #fefefe;
 }
-/* 
-* When the viewport is 55em (15em wider
-* than the 40em max-width for #content) 
-* it gets a static postion to not 
-* overlap the content area 
-*/
-@media screen and (max-width: 55em) {
-  #footer #scroll-top {
-    float:right;
-    position:static;
-    margin:0;
-  }
-}
-
-.carousel.carousel-fade .item {
-  opacity:0;
-}
-
-.carousel.carousel-fade .active.item {
-    opacity:1;
-}
-

@@ -800,10 +800,6 @@
 }
 
 @media (max-width: 767px) {
-  body {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
@@ -899,6 +895,9 @@
 
 @media (max-width: 480px) {
 /*agregados*/
+	body{
+		padding: 0 10px;
+	}
 	.block3, .block4{
 		padding: 0 !important;
 	}

@@ -159,12 +159,12 @@ textarea {
 }
 
 body {
-  margin: 0;
+  margin: 50px 0 0 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 20px;
   color: #999;
-  background: #fff url('../img/linea_colores.jpg') repeat-x top center;
+  background: #fff;
 }
 
 a {
