@@ -809,6 +809,9 @@
   .container-fluid {
     padding: 0;
   }
+  	body{
+		padding: 0 20px;
+	}
   .dl-horizontal dt {
     float: none;
     width: auto;
@@ -896,7 +899,7 @@
 @media (max-width: 480px) {
 /*agregados*/
 	body{
-		padding: 0 10px;
+		padding: 0 20px;
 	}
 	.block3, .block4{
 		padding: 0 !important;
