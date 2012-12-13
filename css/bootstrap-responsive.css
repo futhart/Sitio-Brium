@@ -896,10 +896,12 @@
   }
 }
 
+
+
 @media (max-width: 480px) {
 /*agregados*/
 	body{
-		padding: 0 20px;
+		padding: 50px 10px 0 10px !important;
 	}
 	.block3, .block4{
 		padding: 0 !important;
@@ -929,6 +931,14 @@
 	.columna1 li .columna2 li .columna3 li{
 		font-size: 14px;
 	}
+	.header{
+	clear: both;
+	position: fixed;
+	z-index: 2000;
+	top:0;
+	background:url('../img/linea_colores.jpg') repeat-x top center;
+	height: 50px;
+}
 	
 /*cierre agregados*/
 
@@ -982,6 +992,9 @@
     position: static;
   }
 }
+
+
+
 
 @media (max-width: 979px) {
   body {
