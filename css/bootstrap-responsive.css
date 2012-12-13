@@ -800,6 +800,13 @@
 }
 
 @media (max-width: 767px) {
+
+	.header{
+
+	width: 80%;
+	border-bottom: 1px solid #f4f4f4;
+	}
+	
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
@@ -937,6 +944,8 @@
 	z-index: 2000;
 	top:0;
 	background:url('../img/linea_colores.jpg') repeat-x top center;
+	width: 90%;
+	border-bottom: 1px solid #f4f4f4;
 	
 	}
 	.socios{
