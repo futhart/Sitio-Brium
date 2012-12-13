@@ -19,7 +19,7 @@ $mail->Port="465";
  
 $mail->SMTPAuth 	= true;                               // Enable SMTP authentication
 $mail->Username 	= 'contacto@brium.cl';                            // SMTP username
-$mail->Password 	= 'SocialBrium2012';                           // SMTP password
+$mail->Password 	= 'SocialBrium2012';                     // SMTP password
 //$mail->SMTPSecure 	= 'tls';                            // Enable encryption, 'ssl' also accepted
 
 $mail->From 		= "no-reply@brium.cl";
@@ -37,7 +37,7 @@ $body 		= str_replace("{email}", $email, $body);
 $body 		= str_replace("{mensaje}", $mensaje, $body);
 
 $mail->Subject = 'Contacto Brium';
-$mail->Body    = $body;
+$mail->Body    = utf8_encode($body);
 
 
 if(!$mail->Send()) {
