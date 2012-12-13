@@ -941,8 +941,7 @@
 	}
 	.socios{
 		float: left;
-		width: 100% !important;
-		background: red;
+		margin: 0 0 10px 0;
 	}
 /*cierre agregados*/
 
