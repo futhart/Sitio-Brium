@@ -37,7 +37,7 @@ $body 		= str_replace("{email}", $email, $body);
 $body 		= str_replace("{mensaje}", $mensaje, $body);
 
 $mail->Subject = 'Contacto Brium';
-$mail->Body    = utf8_encode($body);
+$mail->Body    = utf8_decode($body);
 
 
 if(!$mail->Send()) {
