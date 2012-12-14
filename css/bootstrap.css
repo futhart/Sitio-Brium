@@ -4392,7 +4392,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .btn-navbar {
   display: none;
-  float: left;
+  float: right;
   padding: 7px 10px;
   margin-right: 5px;
   margin-left: 5px;

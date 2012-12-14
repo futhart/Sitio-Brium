@@ -802,8 +802,7 @@
 @media (max-width: 767px) {
 
 	.header{
-
-	width: 80%;
+	width: 90% !important;
 	border-bottom: 1px solid #f4f4f4;
 	}
 	
