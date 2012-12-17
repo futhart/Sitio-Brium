@@ -14,7 +14,7 @@ $('#googleMap').gmap3({
           },
           { action: 'addMarkers',
             markers:[
-              {lat:-33.4523649, lng:-70.5608814, options:{icon:"http://www.brium.cl/img/direccion.png"}},
+              {lat:-33.4523649, lng:-70.5608814, options:{icon:"http://www.brium.cl/es/img/direccion.png"}},
             ],
             marker:{
               options:{
