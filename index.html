@@ -43,7 +43,9 @@
 	<script type="text/javascript" src="js/gmap3.min.js"></script>
 	<script type="text/javascript" src="js/googlemaps.js"></script>
 	<!-- Google Maps -->
-
+	<script>
+			if (/mobile/i.test(navigator.userAgent) && !window.location.hash) { window.onload = function () {window.scrollTo(0, 1);}; }
+	</script>
 	<!--RollOver gray-->
 	<script type='text/javascript'>
 		$(document).ready(function(){
@@ -124,8 +126,8 @@
 	</head>
 
 	<body>
+	<div id="award-nomination"><a href="http://www.cssdesignawards.com/css-web-design-award-nominees.php"><img src="img/css-design-award-nominee-duo-vertical.png" title="CSS Design Award Nomination" width="69px" height="164px" alt="" /></a></div>
 <div class="row-fluid header">
-
  <!-- Menu Superior -->
  <div class="navbar navbar-inverse navbar-fixed-top visible-phone">
       <div class="navbar-inner">
@@ -281,11 +283,11 @@
   </div>
       <a name="contacto" id="contacto"></a>
       <div class="row-fluid block4 borde" id="block4">
-    <div class="row contacto">
+    <div class="row-fluid contacto">
           <div class="span7">
         <div id="googleMap"></div>
       </div>
-          <div class="span5 ">
+          <div class="span5">
         <h3 class="tituloverde">Buscamos clientes que se arriesguen y se atrevan.</h3>
         <p>Queremos sorprenderlos y sentirnos orgullosos de las marcas que representamos.</p>
         <div class="linea"></div>
@@ -303,26 +305,38 @@
                 </fieldset>
           </form>
             </div>
-      </div>
+           </div>
         </div>
+        
+         <div class="container-fluid">
+         	<div class="row-fluid"><h3 class="tituloverde">Nuestros Partners</h3><br/></div>
+	         <div class="row-fluid">	
+		         <div class="span3 textcenter"><img src="img/logo_whitelabel.jpg" alt="" alt="Whitelabel - Marketing Digital" /></div>
+		         <div class="span3 textcenter"><img src="img/logo_carcavilla.jpg" alt="" alt="Carcavilla Boutique"/></div>
+		         <div class="span3 textcenter"><img src="img/logo_milimetro.jpg" alt="" alt="Milimetro"/></div>
+		         <div class="span3 textcenter"><img src="img/logo_nou.jpg" alt="" alt="Nou Diseño"/></div>
+	         </div>
+         </div>
   </div>
+ 
     </div>
+    
 </div>
 <!--cierre container-->
-<div class="alert alert-info visible-desktop textcenter"> <a href="#" class="close" data-dismiss="alert">×</a> Revisa nuestro nuevo sitio con <strong><a href="http://es.wikipedia.org/wiki/Dise%C3%B1o_web_adaptativo" target="blank" rel="tooltip" data-placement="top" title="No sabes lo que es? velo en Wikipedia">Responsive Design</strong></a>, si tienes algún dispositivo móvil velo desde el. </div>
 <!-- <div class="row-fluid block5">
 	 <div class="span6">
 	 	<h3>¿Eres una <strong>Start-Up</strong>?</h3>
 	 </div>
 	 </div>-->
 
-<div id="footer" class="row-fluid block6 hidden-phone">
+<div id="footer" class="container-fluid block6 ">
       <div class="inner container"> 
       	<a id="scroll-top" href="#page-top">Subir</a>
       	<div class="span4 logo_footer">
 	      	<img src="img/logo_footer.png" alt="" /> © 2012 Brium ™  |  Brandind Digital 
 	    </div>
-	    <div class=" frase_footer hidden-phone"> Convirtiendo a nuestros clientes en embajadores de nuestra marca </div>
+	    
+	    <div class="frase_footer hidden-phone"> Convirtiendo a nuestros clientes en embajadores de nuestra marca </div>
 	 </div>
 </div>
     

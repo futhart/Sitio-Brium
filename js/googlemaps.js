@@ -5,7 +5,7 @@ $('#googleMap').gmap3({
             options:{
               center:[-33.4523649,-70.5608814],
               zoom: 16,
-              streetViewControl: false,
+              streetViewControl: true,
               styles:
               [
               {featureType: "all", stylers: [{saturation: -100}]},
